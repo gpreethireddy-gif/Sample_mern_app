@@ -16,5 +16,5 @@ app.use("/api/emp",emproutes);
 
 //run the server
 app.listen(3000,()=>{
-    console.log("server listening on port 3000");
-})
+    console.log('Server running on port 3000');
+});
