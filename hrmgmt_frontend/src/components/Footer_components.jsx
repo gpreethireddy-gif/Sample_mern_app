@@ -1,11 +1,20 @@
 function Footer_components(){
-
     return(
         <div>
-            <footer>@copyrights 2026 - Preethi</footer>
+          <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
         </div>
     )
-
 }
-
-export default Footer_components
+export default Footer_components 
