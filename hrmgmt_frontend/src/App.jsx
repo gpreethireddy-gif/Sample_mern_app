@@ -6,6 +6,9 @@ import Contact from './pages/Contact'
 import Login from './pages/Login' 
 import UserHome from './pages/UserHome'
 import Register from './pages/Register'
+import AdminHome from './pages/AdminHome'
+import EmpHome from './pages/EmpHome'
+import HrHome from './pages/HrHome'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +23,9 @@ function App() {
        <Route path="/login" element={<Login/>}></Route>
        <Route path="/userhome" element={<UserHome/>}></Route>
        <Route path="/register" element={<Register/>}></Route>
+       <Route path="/adminhome" element={<AdminHome/>}></Route>
+       <Route path="/emphome" element={<EmpHome/>}></Route>
+       <Route path="/hrhome" element={<HrHome/>}></Route>
     </Routes>
     <Footer_component></Footer_component>
     </div>
